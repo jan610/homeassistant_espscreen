@@ -30,7 +30,8 @@ touchscreen:
     id: ts_touch
     i2c_id: touch_bus
     display: my_display
-    update_interval: 20ms
+    update_interval: 10ms
     reset_pin: GPIO22
     interrupt_pin: GPIO21
-    touch_timeout: 50ms
+    touch_timeout: 20ms
+    frequency: 20 kHz

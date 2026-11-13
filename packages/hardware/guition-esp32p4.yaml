@@ -14,3 +14,4 @@ output:
   - platform: ledc
     pin: GPIO23
     id: gpio_backlight_pwm
+    frequency: 20 kHz

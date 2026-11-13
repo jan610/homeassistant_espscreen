@@ -63,7 +63,7 @@ audio_dac:
     bits_per_sample: 16bit
     use_mclk: true
     use_microphone: false
-    mic_gain: 24DB
+    mic_gain: 12DB
 
 switch:
   - platform: gpio
